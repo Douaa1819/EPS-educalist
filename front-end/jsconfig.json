@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@destinations/*": ["./src/pages/destinations/*"]
+    }
+  }
+}

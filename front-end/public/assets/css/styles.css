@@ -1,0 +1,41 @@
+/* Navbar styles */
+nav {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav a {
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  nav button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  nav button:hover {
+    background-color: #e2e8f0;
+    transform: scale(1.05);
+  }
+  
+  /* Mobile menu styles */
+  @media (max-width: 768px) {
+    nav .mobile-menu {
+      display: block;
+    }
+  
+    nav .desktop-menu {
+      display: none;
+    }
+  }
+  

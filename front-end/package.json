@@ -1,0 +1,41 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rimraf dist",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@next/swc-win32-x64-msvc": "^15.0.0-rc.0",
+    "@react-oauth/google": "^0.12.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.3",
+    "cors": "^2.8.5",
+    "dompurify": "^3.1.6",
+    "firebase": "^10.12.3",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "next": "^14.2.5",
+    "quill": "^2.0.2",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-quill": "^2.0.0",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "rimraf": "^6.0.0",
+    "tailwindcss": "^3.4.7"
+  }
+}
